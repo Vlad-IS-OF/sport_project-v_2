@@ -43,7 +43,7 @@ namespace Sport_progect
                 BD bd = new BD();
                 DataTable table = new DataTable();
                 MySqlDataAdapter adapter = new MySqlDataAdapter();
-                MySqlCommand com = new MySqlCommand("SELECT * FROM `пользователь` WHERE `Login`= @uL and `Password` = @uP", bd.getCon());
+                MySqlCommand com = new MySqlCommand("SELECT * FROM `пользователи` WHERE `Login`= @uL and `Password` = @uP", bd.getCon());
                 com.Parameters.Add("@ul", MySqlDbType.VarChar).Value = login;
                 com.Parameters.Add("@uP", MySqlDbType.VarChar).Value = GetHash(pass);
                 adapter.SelectCommand = com;

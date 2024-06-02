@@ -15,10 +15,7 @@ namespace Sport_progect
         {
             BD bd = new BD();
             bd.OpenCon();
-            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT " +
-                "`idМероприятие` AS 'id', `Название_мероприятия` AS 'Название', `Описание`, " +
-                "( SELECT `Название вида спорта` FROM `вид спорта` WHERE `вид спорта`.`idВид спорта` = `мероприятие`.`idВид спорта` ) " +
-                "AS 'Вид спорта', `Дата проведения`, `Дата окончания` FROM `мероприятие`", bd.getCon());
+            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `все меропрития`", bd.getCon());
             return adap;
         }
 
@@ -27,7 +24,7 @@ namespace Sport_progect
         {
             BD bd = new BD();
             bd.OpenCon();
-            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `спортсмен`", bd.getCon());
+            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `список спортсменов`", bd.getCon());
             return adap;
         }
 
@@ -59,7 +56,7 @@ namespace Sport_progect
         {
             BD bd = new BD();
             FormAddEdit_1 form = new FormAddEdit_1();
-            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `вид спорта`", bd.getCon());
+            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `виды спорта`", bd.getCon());
             DataTable DATA = new DataTable();
             adap.Fill(DATA);
             form.dataGridView1.DataSource = DATA;
@@ -80,7 +77,7 @@ namespace Sport_progect
             form.BoxAbout.Text = (string)Table_sport.Rows[index].Cells[2].Value;
             form.dateTime_DO.Value = (System.DateTime)Table_sport.Rows[index].Cells[4].Value;
             form.dateTime_ELSE.Value = (System.DateTime)Table_sport.Rows[index].Cells[5].Value;
-            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `вид спорта`", bd.getCon());
+            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `виды спорта`", bd.getCon());
             DataTable DATA = new DataTable();
             adap.Fill(DATA);
             form.dataGridView1.DataSource = DATA;
@@ -257,9 +254,9 @@ namespace Sport_progect
             int index = Table_sport.CurrentRow.Index;
             form.Box_id.Text = Table_sport.Rows[index].Cells[0].Value.ToString();
             form.Box_Fname.Text = (string)Table_sport.Rows[index].Cells[1].Value;
-            form.Box_Lname.Text = (string)Table_sport.Rows[index].Cells[2].Value;
-            form.Box_Dname.Text = (string)Table_sport.Rows[index].Cells[3].Value;
-            form.Box_kyrs.Text = (string)Table_sport.Rows[index].Cells[5].Value;
+            form.Box_Lname.Text = (string)Table_sport.Rows[index].Cells[0].Value;
+            form.Box_Dname.Text = (string)Table_sport.Rows[index].Cells[2].Value;
+            form.Box_kyrs.Text = Table_sport.Rows[index].Cells[3].Value.ToString();
             MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `отделения`", bd.getCon());
             DataTable DATA = new DataTable();
             adap.Fill(DATA);
@@ -282,7 +279,11 @@ namespace Sport_progect
                 //MessageBox.Show(id); //проверка id
                 BD bd = new BD();
                 bd.OpenCon();
-                MySqlCommand com = new MySqlCommand("DELETE FROM `спортсмен` WHERE `спортсмен`.`idСпортсмен` =" + id, bd.getCon());
+                MySqlCommand com = new MySqlCommand("DELETE FROM `спортсмены` WHERE `спортсмены`.`idУчастника` = "
+                    + "Get_people_ID('"
+                    + Table_sport.Rows[index].Cells[1].Value.ToString() + "', '"
+                    + Table_sport.Rows[index].Cells[0].Value.ToString() + "', '"
+                    + Table_sport.Rows[index].Cells[2].Value.ToString() + "')", bd.getCon());
                 com.ExecuteNonQuery();
                 Update(man());
                 bd.CloseCon();
