@@ -38,7 +38,7 @@ namespace Sport_progect
                         MessageBox.Show("Запись успешно изменина");
                         this.Hide();
 
-                    }
+        }
                     catch (Exception ex)
                     {
                         MessageBox.Show(ex.Message);

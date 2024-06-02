@@ -127,14 +127,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sport_progect.exe" size="1667072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sport_progect.exe" size="1673728">
       <assemblyIdentity name="Sport_progect" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lTTPMI30gPP+WrMmer3P1wv/D1OWzGlBGYrvIlP7mwA=</dsig:DigestValue>
+        <dsig:DigestValue>ZyyBq24+LiTWQ1wHvtnqZBpokP4nkdd6gcM9Ysj+kmI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

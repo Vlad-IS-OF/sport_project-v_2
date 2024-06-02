@@ -36,9 +36,9 @@ namespace Sport_progect
                     int index = dataGridView1.CurrentRow.Index;
                     string id = dataGridView1.Rows[index].Cells[0].Value.ToString();
                     bd.OpenCon();
-                    MySqlCommand com = new MySqlCommand("UPDATE `мероприятие` SET `Название_мероприятия` = '" + Box_name.Text + "', " +
-                        "`Описание` = '" + BoxAbout.Text + "', `idВид спорта` = '" + id.ToString() + "',`Дата проведения` = '" + dateTime_DO.Value.ToString("yyyy.MM.dd") + "', " +
-                        "`Дата окончания` = '" + dateTime_ELSE.Value.ToString("yyyy.MM.dd") + "' WHERE `мероприятие`.`idМероприятие` = " + Box_id.Text, bd.getCon());
+                    MySqlCommand com = new MySqlCommand("UPDATE `мероприятия` SET `Название_мероприятия` = '" + Box_name.Text + "', " +
+                        "`Описание_мерпориятия` = '" + BoxAbout.Text + "', `Виды спорта_idВид_спорта` = '" + id.ToString() + "',`Дата_проведения` = '" + dateTime_DO.Value.ToString("yyyy.MM.dd") + "', " +
+                        "`Дата_завершения` = '" + dateTime_ELSE.Value.ToString("yyyy.MM.dd") + "' WHERE `мероприятия`.`idМероприятия` = " + Box_id.Text, bd.getCon());
                     /*MessageBox.Show(com.CommandText.ToString());*/
                     com.ExecuteNonQuery();
                     bd.CloseCon();
@@ -66,7 +66,7 @@ namespace Sport_progect
                         bd.OpenCon();
                         int index = dataGridView1.CurrentRow.Index;
                         string id = dataGridView1.Rows[index].Cells[0].Value.ToString();
-                        MySqlCommand com = new MySqlCommand("INSERT INTO `мероприятие` (`Название_мероприятия`, `Описание`, `idВид спорта`, `Дата проведения`, `Дата окончания`) " +
+                        MySqlCommand com = new MySqlCommand("INSERT INTO `мероприятия` (`Название_мероприятия`, `Описание_мерпориятия`, `Виды спорта_idВид_спорта`, `Дата_проведения`, `Дата_завершения`) " +
                             "VALUES('" + Box_name.Text.ToString() + "', '" + BoxAbout.Text.ToString() + "', '" + id.ToString() + "', '" + dateTime_DO.Value.ToString("yyyy.MM.dd") + "', '" + dateTime_ELSE.Value.ToString("yyyy.MM.dd") + "')", bd.getCon());
                         /*MessageBox.Show(com.CommandText.ToString());*/
                         com.ExecuteNonQuery();

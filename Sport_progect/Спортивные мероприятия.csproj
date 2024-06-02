@@ -131,6 +131,12 @@
     <Compile Include="FormAddEdit_2.Designer.cs">
       <DependentUpon>FormAddEdit_2.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAddEdit_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddEdit_3.Designer.cs">
+      <DependentUpon>FormAddEdit_3.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAddEdit_2.resx">
       <DependentUpon>FormAddEdit_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAddEdit_3.resx">
+      <DependentUpon>FormAddEdit_3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>

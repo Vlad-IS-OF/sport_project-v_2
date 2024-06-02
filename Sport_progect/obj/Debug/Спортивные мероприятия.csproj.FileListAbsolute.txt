@@ -35,3 +35,4 @@ D:\Проекты программирования\Спортивные меро
 D:\Проекты программирования\Спортивные мероприятия v_2\Sport_progect\obj\Debug\Спортивн.56C9A887.Up2Date
 D:\Проекты программирования\Спортивные мероприятия v_2\Sport_progect\obj\Debug\Sport_progect.exe
 D:\Проекты программирования\Спортивные мероприятия v_2\Sport_progect\obj\Debug\Sport_progect.pdb
+D:\Проекты программирования\Спортивные мероприятия v_2\Sport_progect\obj\Debug\Sport_progect.FormAddEdit_3.resources
