@@ -47,7 +47,7 @@ namespace Sport_progect
             try
             {
                 BD bd = new BD();
-                MySqlDataAdapter adap = new MySqlDataAdapter("SELECT `пользователь`.`idПользователь`, `пользователь`.`Login`, `пользователь`.`Password` FROM `пользователь`", bd.getCon());
+                MySqlDataAdapter adap = new MySqlDataAdapter("SELECT `пользователи`.`idПользователя`, `пользователи`.`Login`, `пользователи`.`Password`, `пользователи`.`Root` FROM `пользователи`", bd.getCon());
                 DataTable DATA = new DataTable();
                 adap.Fill(DATA);
                 Table_users.DataSource = DATA;
@@ -63,10 +63,10 @@ namespace Sport_progect
         {
             BD bd = new BD();
             bd.OpenCon();
-            MySqlCommand com = new MySqlCommand("UPDATE `пользователь` SET `Password` = '"+GetHash(Box_password.Text)+ "', `RePas` = 1 WHERE `пользователь`.`Login` = '" + Box_login.Text+"'", bd.getCon());
+            MySqlCommand com = new MySqlCommand("UPDATE `пользователи` SET `Password` = '" + GetHash(Box_password.Text)+ "', `RePass` = 1 WHERE `пользователи`.`Login` = '" + Box_login.Text+"'", bd.getCon());
             com.ExecuteNonQuery();
             bd.CloseCon();
-            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT `пользователь`.`idПользователь`, `пользователь`.`Login`, `пользователь`.`Password` FROM `пользователь`", bd.getCon());
+            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT `пользователи`.`idПользователя`, `пользователи`.`Login`, `пользователи`.`Password` FROM `пользователи`", bd.getCon());
             Update(adap);
         }
 
@@ -76,12 +76,12 @@ namespace Sport_progect
             bd.OpenCon();
             if (String.IsNullOrEmpty(Find.Text))
             {
-                MySqlDataAdapter adp = new MySqlDataAdapter("SELECT `пользователь`.`idПользователь`, `пользователь`.`Login`, `пользователь`.`Password` FROM `пользователь`", bd.getCon());
+                MySqlDataAdapter adp = new MySqlDataAdapter("SELECT `пользователи`.`idПользователя`, `пользователи`.`Login`, `пользователи`.`Password`, `пользователи`.`Root` FROM `пользователи`", bd.getCon());
                 Update(adp);
                 bd.CloseCon();
                 return;
             }
-            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT `пользователь`.`idПользователь`, `пользователь`.`Login`, `пользователь`.`Password` FROM `пользователь` WHERE `пользователь`.`idПользователь` LIKE '%" + Find.Text + "%' OR `пользователь`.`Login` LIKE '%" + Find.Text + "%'", bd.getCon());
+            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT `пользователи`.`idПользователя`, `пользователи`.`Login`, `пользователи`.`Password`, `пользователи`.`Root` FROM `пользователи` WHERE `пользователи`.`idПользователя` LIKE '%" + Find.Text + "%' OR `пользователи`.`Login` LIKE '%" + Find.Text + "%'", bd.getCon());
             Update(adap);
             bd.CloseCon();
         }
@@ -118,9 +118,9 @@ namespace Sport_progect
             try
             {
                 bd.OpenCon();
-                MySqlCommand com = new MySqlCommand("INSERT INTO `пользователь` (`Login`, `Password`, `Root`, `RePas`) VALUES ('" + log + "', '" + GetHash(pas) + "', '" + acc + "', '1')", bd.getCon());
+                MySqlCommand com = new MySqlCommand("INSERT INTO `пользователи` (`Login`, `Password`, `Root`, `RePass`) VALUES ('" + log + "', '" + GetHash(pas) + "', '" + acc + "', '1')", bd.getCon());
                 com.ExecuteNonQuery();
-                MySqlDataAdapter adap = new MySqlDataAdapter("SELECT `пользователь`.`idПользователь`, `пользователь`.`Login`, `пользователь`.`Password` FROM `пользователь`", bd.getCon());
+                MySqlDataAdapter adap = new MySqlDataAdapter("SELECT `пользователи`.`idПользователя`, `пользователи`.`Login`, `пользователи`.`Password` FROM `пользователи`", bd.getCon());
                 Update(adap);
                 bd.CloseCon();
             }
@@ -143,14 +143,14 @@ namespace Sport_progect
                 BD bd = new BD();
                 bd.OpenCon();
                 string id = Table_users.Rows[index].Cells[0].Value.ToString();
-                MySqlCommand com = new MySqlCommand("DELETE FROM `пользователь` WHERE `пользователь`.`idПользователь` = "+id, bd.getCon());
+                MySqlCommand com = new MySqlCommand("DELETE FROM `пользователи` WHERE `пользователи`.`idПользователя` = " + id, bd.getCon());
                 com.ExecuteNonQuery();
-                MySqlDataAdapter adap = new MySqlDataAdapter("SELECT `пользователь`.`idПользователь`, `пользователь`.`Login`, `пользователь`.`Password` FROM `пользователь`", bd.getCon());
+                MySqlDataAdapter adap = new MySqlDataAdapter("SELECT `пользователи`.`idПользователя`, `пользователи`.`Login`, `пользователи`.`Password` FROM `пользователи`", bd.getCon());
                 Update(adap);
                 bd.CloseCon();
                 MessageBox.Show("Элемент удалён!");
             }
-            //DELETE FROM `пользователь` WHERE `пользователь`.`idПользователь` = 2
+            //DELETE FROM `пользователь` WHERE `пользователь`.`idПользователя` = 2
         }
     }
 }

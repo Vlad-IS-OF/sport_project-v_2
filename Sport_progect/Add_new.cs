@@ -27,7 +27,7 @@ namespace Sport_progect
                 {
                     BD bd = new BD();
                     bd.OpenCon();
-                    MySqlCommand com = new MySqlCommand("INSERT INTO `вид спорта` (`Название вида спорта`) VALUES ('" + Name.Text + "')", bd.getCon());
+                    MySqlCommand com = new MySqlCommand("INSERT INTO `виды спорта` (`Название_вида_спорта`) VALUES ('" + Name.Text + "')", bd.getCon());
                     com.ExecuteNonQuery();
                     bd.CloseCon();
                     this.Close();
@@ -36,7 +36,7 @@ namespace Sport_progect
                 {
                     BD bd = new BD();
                     bd.OpenCon();
-                    MySqlCommand com = new MySqlCommand("INSERT INTO `отделения` (`Название отделения`) VALUES ('" + Name.Text + "')", bd.getCon());
+                    MySqlCommand com = new MySqlCommand("INSERT INTO `отделения` (`название_отделения`) VALUES ('" + Name.Text + "')", bd.getCon());
                     com.ExecuteNonQuery();
                     bd.CloseCon();
                     this.Close();

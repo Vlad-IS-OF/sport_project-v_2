@@ -3,28 +3,60 @@
   "WorkspaceRootPath": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\formaddedit_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\formaddedit_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\formaddedit_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\formaddedit_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\formaddedit_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\formaddedit_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\formaddedit_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\formaddedit_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\formaddedit_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\formaddedit_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\formaddedit_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\formaddedit_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\formaddedit_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\formaddedit_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\formaddedit_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\formaddedit_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\add_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\add_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|d:\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0441\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\add_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\add_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\sport_progect\\formaddedit_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A81CC293-15C5-4D4F-B58B-04C14CBEACE1}|Sport_progect\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F.csproj|solutionrelative:sport_progect\\formaddedit_3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +82,120 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormAddEdit_1.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\FormAddEdit_1.cs",
+              "RelativeDocumentMoniker": "Sport_progect\\FormAddEdit_1.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\FormAddEdit_1.cs",
+              "RelativeToolTip": "Sport_progect\\FormAddEdit_1.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAtwHsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:23:22.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormAddEdit_1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\FormAddEdit_1.cs",
+              "RelativeDocumentMoniker": "Sport_progect\\FormAddEdit_1.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\FormAddEdit_1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Sport_progect\\FormAddEdit_1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:23:20.795Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ADM.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\ADM.cs",
+              "RelativeDocumentMoniker": "Sport_progect\\ADM.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\ADM.cs",
+              "RelativeToolTip": "Sport_progect\\ADM.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAnwFMAAACqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:00:05.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Add_new.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\Add_new.cs",
+              "RelativeDocumentMoniker": "Sport_progect\\Add_new.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\Add_new.cs",
+              "RelativeToolTip": "Sport_progect\\Add_new.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB0AAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T19:58:07.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Add_new.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\Add_new.cs",
+              "RelativeDocumentMoniker": "Sport_progect\\Add_new.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\Add_new.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Sport_progect\\Add_new.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T19:58:05.045Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ADM.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\ADM.cs",
+              "RelativeDocumentMoniker": "Sport_progect\\ADM.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\ADM.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Sport_progect\\ADM.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T19:40:24.463Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "login.cs",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\login.cs",
+              "RelativeDocumentMoniker": "Sport_progect\\login.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\login.cs",
+              "RelativeToolTip": "Sport_progect\\login.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T07:30:31.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "login.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\login.cs",
+              "RelativeDocumentMoniker": "Sport_progect\\login.cs",
+              "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\login.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Sport_progect\\login.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T07:30:28.572Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\Form1.cs",
               "RelativeDocumentMoniker": "Sport_progect\\Form1.cs",
               "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\Form1.cs",
               "RelativeToolTip": "Sport_progect\\Form1.cs",
-              "ViewState": "AQIAAKYAAAAAAAAAAAAnwI4AAABaAAAA",
+              "ViewState": "AQIAACIBAAAAAAAAAAAjwCkBAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T17:21:23.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\Form1.cs",
               "RelativeDocumentMoniker": "Sport_progect\\Form1.cs",
@@ -75,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "FormAddEdit_3.cs",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\FormAddEdit_3.cs",
               "RelativeDocumentMoniker": "Sport_progect\\FormAddEdit_3.cs",
@@ -88,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "FormAddEdit_3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\FormAddEdit_3.cs",
               "RelativeDocumentMoniker": "Sport_progect\\FormAddEdit_3.cs",
@@ -100,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "FormAddEdit_2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\FormAddEdit_2.cs",
               "RelativeDocumentMoniker": "Sport_progect\\FormAddEdit_2.cs",
@@ -112,13 +244,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "FormAddEdit_2.cs",
               "DocumentMoniker": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\FormAddEdit_2.cs",
               "RelativeDocumentMoniker": "Sport_progect\\FormAddEdit_2.cs",
               "ToolTip": "D:\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\\\u0421\u043F\u043E\u0440\u0442\u0438\u0432\u043D\u044B\u0435 \u043C\u0435\u0440\u043E\u043F\u0440\u0438\u044F\u0442\u0438\u044F v_2\\Sport_progect\\FormAddEdit_2.cs",
               "RelativeToolTip": "Sport_progect\\FormAddEdit_2.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAYwEwAAAANAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAIAwwBoAAACoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-02T17:13:58.982Z",
               "EditorCaption": ""

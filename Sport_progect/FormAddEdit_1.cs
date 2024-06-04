@@ -116,10 +116,15 @@ namespace Sport_progect
                     bd.OpenCon();
                     int index = dataGridView1.CurrentRow.Index;
                     string id = dataGridView1.Rows[index].Cells[0].Value.ToString();
-                    MySqlCommand com = new MySqlCommand("DELETE FROM `вид спорта` WHERE `вид спорта`.`idВид спорта` = '" + id + "'", bd.getCon());
+                    MySqlCommand com = new MySqlCommand("DELETE FROM `виды спорта` WHERE `виды спорта`.`idВид_спорта` = '" + id + "'", bd.getCon());
                     com.ExecuteNonQuery();
-                    bd.CloseCon();
+                    MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `виды спорта`", bd.getCon());
+                    DataTable DATA = new DataTable();
+                    adap.Fill(DATA);
+                    dataGridView1.DataSource = DATA;
                     MessageBox.Show("Элемент удалён!");
+                    bd.CloseCon();
+                    
                 }
                 catch (Exception ex) {
                     MessageBox.Show(ex.Message);
@@ -134,7 +139,7 @@ namespace Sport_progect
             {
                 BD bd = new BD();
                 bd.OpenCon();
-                MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `вид спорта`", bd.getCon());
+                MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `виды спорта`", bd.getCon());
                 DataTable DATA = new DataTable();
                 adap.Fill(DATA);
                 dataGridView1.DataSource = DATA;

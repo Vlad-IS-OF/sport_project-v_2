@@ -90,7 +90,7 @@ namespace Sport_progect
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(36, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 29);
+            this.label1.Size = new System.Drawing.Size(88, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "Логин:";
             // 
@@ -129,7 +129,7 @@ namespace Sport_progect
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(5, 12);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(158, 58);
+            this.label4.Size = new System.Drawing.Size(152, 58);
             this.label4.TabIndex = 0;
             this.label4.Text = "Управление\r\nAccount:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -179,7 +179,7 @@ namespace Sport_progect
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(29, 218);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(113, 58);
+            this.label3.Size = new System.Drawing.Size(111, 58);
             this.label3.TabIndex = 7;
             this.label3.Text = "Уровень\r\nдопуска:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -210,7 +210,7 @@ namespace Sport_progect
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(29, 151);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 29);
+            this.label2.Size = new System.Drawing.Size(102, 29);
             this.label2.TabIndex = 4;
             this.label2.Text = "Пароль:";
             // 
@@ -270,6 +270,7 @@ namespace Sport_progect
             this.button4.TabIndex = 7;
             this.button4.Text = "Вывести отчёт за период";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // ADM

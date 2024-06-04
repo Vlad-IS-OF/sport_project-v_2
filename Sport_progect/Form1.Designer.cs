@@ -35,8 +35,11 @@ namespace Sport_progect
             this.Insert_sport = new System.Windows.Forms.Button();
             this.Table_sport = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.Delete_people = new System.Windows.Forms.Button();
             this.Delete_man = new System.Windows.Forms.Button();
+            this.Update_people = new System.Windows.Forms.Button();
             this.Update_man = new System.Windows.Forms.Button();
+            this.Insert_people = new System.Windows.Forms.Button();
             this.Insert_man = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Delete_sport = new System.Windows.Forms.Button();
@@ -49,6 +52,7 @@ namespace Sport_progect
             this.otchet = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.p_people = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.idUr = new System.Windows.Forms.Label();
             this.acces = new System.Windows.Forms.Label();
@@ -57,14 +61,15 @@ namespace Sport_progect
             this.p_man = new System.Windows.Forms.Panel();
             this.p_sport = new System.Windows.Forms.Panel();
             this.l_sport_man = new System.Windows.Forms.Label();
+            this.l_people = new System.Windows.Forms.Label();
             this.l_sport = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.I_people = new System.Windows.Forms.Label();
-            this.p_people = new System.Windows.Forms.Panel();
-            this.Insert_people = new System.Windows.Forms.Button();
-            this.Update_people = new System.Windows.Forms.Button();
-            this.Delete_people = new System.Windows.Forms.Button();
+            this.l_refery = new System.Windows.Forms.Label();
+            this.p_refery = new System.Windows.Forms.Panel();
+            this.Insert_refery = new System.Windows.Forms.Button();
+            this.Update_refery = new System.Windows.Forms.Button();
+            this.Delete_refery = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Table_sport)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -117,7 +122,10 @@ namespace Sport_progect
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.Delete_refery);
             this.panel3.Controls.Add(this.Delete_people);
+            this.panel3.Controls.Add(this.Update_refery);
+            this.panel3.Controls.Add(this.Insert_refery);
             this.panel3.Controls.Add(this.Delete_man);
             this.panel3.Controls.Add(this.Update_people);
             this.panel3.Controls.Add(this.Update_man);
@@ -134,6 +142,21 @@ namespace Sport_progect
             this.panel3.Size = new System.Drawing.Size(893, 488);
             this.panel3.TabIndex = 5;
             // 
+            // Delete_people
+            // 
+            this.Delete_people.BackColor = System.Drawing.Color.Red;
+            this.Delete_people.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Delete_people.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Delete_people.ForeColor = System.Drawing.Color.White;
+            this.Delete_people.Location = new System.Drawing.Point(758, 3);
+            this.Delete_people.Name = "Delete_people";
+            this.Delete_people.Size = new System.Drawing.Size(132, 41);
+            this.Delete_people.TabIndex = 10;
+            this.Delete_people.Text = "УДАЛИТЬ";
+            this.Delete_people.UseVisualStyleBackColor = false;
+            this.Delete_people.Visible = false;
+            this.Delete_people.Click += new System.EventHandler(this.Delete_people_Click);
+            // 
             // Delete_man
             // 
             this.Delete_man.BackColor = System.Drawing.Color.Red;
@@ -149,6 +172,20 @@ namespace Sport_progect
             this.Delete_man.Visible = false;
             this.Delete_man.Click += new System.EventHandler(this.Delete_man_Click);
             // 
+            // Update_people
+            // 
+            this.Update_people.BackColor = System.Drawing.Color.PaleGreen;
+            this.Update_people.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Update_people.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Update_people.Location = new System.Drawing.Point(202, 3);
+            this.Update_people.Name = "Update_people";
+            this.Update_people.Size = new System.Drawing.Size(154, 41);
+            this.Update_people.TabIndex = 9;
+            this.Update_people.Text = "ИЗМЕНИТЬ";
+            this.Update_people.UseVisualStyleBackColor = false;
+            this.Update_people.Visible = false;
+            this.Update_people.Click += new System.EventHandler(this.Update_people_Click);
+            // 
             // Update_man
             // 
             this.Update_man.BackColor = System.Drawing.Color.PaleGreen;
@@ -162,6 +199,20 @@ namespace Sport_progect
             this.Update_man.UseVisualStyleBackColor = false;
             this.Update_man.Visible = false;
             this.Update_man.Click += new System.EventHandler(this.Update_man_Click);
+            // 
+            // Insert_people
+            // 
+            this.Insert_people.BackColor = System.Drawing.Color.PaleGreen;
+            this.Insert_people.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Insert_people.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Insert_people.Location = new System.Drawing.Point(3, 3);
+            this.Insert_people.Name = "Insert_people";
+            this.Insert_people.Size = new System.Drawing.Size(154, 41);
+            this.Insert_people.TabIndex = 8;
+            this.Insert_people.Text = "ДОБАВИТЬ";
+            this.Insert_people.UseVisualStyleBackColor = false;
+            this.Insert_people.Visible = false;
+            this.Insert_people.Click += new System.EventHandler(this.Insert_people_Click);
             // 
             // Insert_man
             // 
@@ -293,6 +344,7 @@ namespace Sport_progect
             this.otchet.TabIndex = 9;
             this.otchet.Text = "Вывести отчёт за период";
             this.otchet.UseVisualStyleBackColor = false;
+            this.otchet.Visible = false;
             this.otchet.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox3
@@ -311,10 +363,12 @@ namespace Sport_progect
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(34)))), ((int)(((byte)(128)))));
             this.panel2.Controls.Add(this.p_people);
             this.panel2.Controls.Add(this.panel4);
+            this.panel2.Controls.Add(this.p_refery);
             this.panel2.Controls.Add(this.p_man);
             this.panel2.Controls.Add(this.p_sport);
+            this.panel2.Controls.Add(this.l_refery);
             this.panel2.Controls.Add(this.l_sport_man);
-            this.panel2.Controls.Add(this.I_people);
+            this.panel2.Controls.Add(this.l_people);
             this.panel2.Controls.Add(this.l_sport);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
@@ -322,6 +376,15 @@ namespace Sport_progect
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(301, 566);
             this.panel2.TabIndex = 4;
+            // 
+            // p_people
+            // 
+            this.p_people.BackColor = System.Drawing.Color.White;
+            this.p_people.Location = new System.Drawing.Point(20, 141);
+            this.p_people.Name = "p_people";
+            this.p_people.Size = new System.Drawing.Size(205, 3);
+            this.p_people.TabIndex = 5;
+            this.p_people.Visible = false;
             // 
             // panel4
             // 
@@ -402,21 +465,33 @@ namespace Sport_progect
             this.l_sport_man.Cursor = System.Windows.Forms.Cursors.Default;
             this.l_sport_man.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.l_sport_man.ForeColor = System.Drawing.Color.White;
-            this.l_sport_man.Location = new System.Drawing.Point(6, 243);
+            this.l_sport_man.Location = new System.Drawing.Point(20, 243);
             this.l_sport_man.Name = "l_sport_man";
-            this.l_sport_man.Size = new System.Drawing.Size(242, 32);
+            this.l_sport_man.Size = new System.Drawing.Size(221, 32);
             this.l_sport_man.TabIndex = 3;
             this.l_sport_man.Text = "СПОРТСМЕНЫ";
             this.l_sport_man.Click += new System.EventHandler(this.l_sport_man_Click);
+            // 
+            // l_people
+            // 
+            this.l_people.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.l_people.ForeColor = System.Drawing.Color.White;
+            this.l_people.Location = new System.Drawing.Point(20, 102);
+            this.l_people.Name = "l_people";
+            this.l_people.Size = new System.Drawing.Size(205, 36);
+            this.l_people.TabIndex = 2;
+            this.l_people.Text = "УЧАСТНИКИ";
+            this.l_people.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.l_people.Click += new System.EventHandler(this.I_people_Click);
             // 
             // l_sport
             // 
             this.l_sport.Enabled = false;
             this.l_sport.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.l_sport.ForeColor = System.Drawing.Color.White;
-            this.l_sport.Location = new System.Drawing.Point(6, 174);
+            this.l_sport.Location = new System.Drawing.Point(12, 175);
             this.l_sport.Name = "l_sport";
-            this.l_sport.Size = new System.Drawing.Size(249, 36);
+            this.l_sport.Size = new System.Drawing.Size(239, 36);
             this.l_sport.TabIndex = 2;
             this.l_sport.Text = "МЕРОПРИЯТИЯ";
             this.l_sport.Click += new System.EventHandler(this.l_sport_Click);
@@ -441,67 +516,67 @@ namespace Sport_progect
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.Click += new System.EventHandler(this.notifyIcon1_Click);
             // 
-            // I_people
+            // l_refery
             // 
-            this.I_people.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.I_people.ForeColor = System.Drawing.Color.White;
-            this.I_people.Location = new System.Drawing.Point(6, 102);
-            this.I_people.Name = "I_people";
-            this.I_people.Size = new System.Drawing.Size(249, 36);
-            this.I_people.TabIndex = 2;
-            this.I_people.Text = "УЧАСТНИКИ";
-            this.I_people.Click += new System.EventHandler(this.I_people_Click);
+            this.l_refery.Cursor = System.Windows.Forms.Cursors.Default;
+            this.l_refery.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.l_refery.ForeColor = System.Drawing.Color.White;
+            this.l_refery.Location = new System.Drawing.Point(20, 304);
+            this.l_refery.Name = "l_refery";
+            this.l_refery.Size = new System.Drawing.Size(205, 32);
+            this.l_refery.TabIndex = 3;
+            this.l_refery.Text = "Жюри";
+            this.l_refery.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.l_refery.Click += new System.EventHandler(this.l_refery_Click);
             // 
-            // p_people
+            // p_refery
             // 
-            this.p_people.BackColor = System.Drawing.Color.White;
-            this.p_people.Location = new System.Drawing.Point(20, 141);
-            this.p_people.Name = "p_people";
-            this.p_people.Size = new System.Drawing.Size(205, 3);
-            this.p_people.TabIndex = 5;
+            this.p_refery.BackColor = System.Drawing.Color.White;
+            this.p_refery.Location = new System.Drawing.Point(20, 339);
+            this.p_refery.Name = "p_refery";
+            this.p_refery.Size = new System.Drawing.Size(205, 3);
+            this.p_refery.TabIndex = 5;
+            this.p_refery.Visible = false;
             // 
-            // Insert_people
+            // Insert_refery
             // 
-            this.Insert_people.BackColor = System.Drawing.Color.PaleGreen;
-            this.Insert_people.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Insert_people.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Insert_people.Location = new System.Drawing.Point(3, 3);
-            this.Insert_people.Name = "Insert_people";
-            this.Insert_people.Size = new System.Drawing.Size(154, 41);
-            this.Insert_people.TabIndex = 8;
-            this.Insert_people.Text = "ДОБАВИТЬ";
-            this.Insert_people.UseVisualStyleBackColor = false;
-            this.Insert_people.Visible = false;
-            this.Insert_people.Click += new System.EventHandler(this.Insert_people_Click);
+            this.Insert_refery.BackColor = System.Drawing.Color.PaleGreen;
+            this.Insert_refery.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Insert_refery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Insert_refery.Location = new System.Drawing.Point(3, 3);
+            this.Insert_refery.Name = "Insert_refery";
+            this.Insert_refery.Size = new System.Drawing.Size(154, 41);
+            this.Insert_refery.TabIndex = 8;
+            this.Insert_refery.Text = "ДОБАВИТЬ";
+            this.Insert_refery.UseVisualStyleBackColor = false;
+            this.Insert_refery.Visible = false;
             // 
-            // Update_people
+            // Update_refery
             // 
-            this.Update_people.BackColor = System.Drawing.Color.PaleGreen;
-            this.Update_people.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Update_people.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Update_people.Location = new System.Drawing.Point(202, 3);
-            this.Update_people.Name = "Update_people";
-            this.Update_people.Size = new System.Drawing.Size(154, 41);
-            this.Update_people.TabIndex = 9;
-            this.Update_people.Text = "ИЗМЕНИТЬ";
-            this.Update_people.UseVisualStyleBackColor = false;
-            this.Update_people.Visible = false;
-            this.Update_people.Click += new System.EventHandler(this.Update_people_Click);
+            this.Update_refery.BackColor = System.Drawing.Color.PaleGreen;
+            this.Update_refery.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Update_refery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Update_refery.Location = new System.Drawing.Point(202, 3);
+            this.Update_refery.Name = "Update_refery";
+            this.Update_refery.Size = new System.Drawing.Size(154, 41);
+            this.Update_refery.TabIndex = 9;
+            this.Update_refery.Text = "ИЗМЕНИТЬ";
+            this.Update_refery.UseVisualStyleBackColor = false;
+            this.Update_refery.Visible = false;
             // 
-            // Delete_people
+            // Delete_refery
             // 
-            this.Delete_people.BackColor = System.Drawing.Color.Red;
-            this.Delete_people.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Delete_people.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Delete_people.ForeColor = System.Drawing.Color.White;
-            this.Delete_people.Location = new System.Drawing.Point(758, 3);
-            this.Delete_people.Name = "Delete_people";
-            this.Delete_people.Size = new System.Drawing.Size(132, 41);
-            this.Delete_people.TabIndex = 10;
-            this.Delete_people.Text = "УДАЛИТЬ";
-            this.Delete_people.UseVisualStyleBackColor = false;
-            this.Delete_people.Visible = false;
-            this.Delete_people.Click += new System.EventHandler(this.Delete_people_Click);
+            this.Delete_refery.BackColor = System.Drawing.Color.Red;
+            this.Delete_refery.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Delete_refery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Delete_refery.ForeColor = System.Drawing.Color.White;
+            this.Delete_refery.Location = new System.Drawing.Point(758, 3);
+            this.Delete_refery.Name = "Delete_refery";
+            this.Delete_refery.Size = new System.Drawing.Size(132, 41);
+            this.Delete_refery.TabIndex = 10;
+            this.Delete_refery.Text = "УДАЛИТЬ";
+            this.Delete_refery.UseVisualStyleBackColor = false;
+            this.Delete_refery.Visible = false;
             // 
             // Form1
             // 
@@ -562,11 +637,16 @@ namespace Sport_progect
         private System.Windows.Forms.Button otchet;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
-        private System.Windows.Forms.Label I_people;
+        private System.Windows.Forms.Label l_people;
         private System.Windows.Forms.Panel p_people;
         private System.Windows.Forms.Button Delete_people;
         private System.Windows.Forms.Button Update_people;
         private System.Windows.Forms.Button Insert_people;
+        private System.Windows.Forms.Panel p_refery;
+        private System.Windows.Forms.Label l_refery;
+        private System.Windows.Forms.Button Insert_refery;
+        private System.Windows.Forms.Button Update_refery;
+        private System.Windows.Forms.Button Delete_refery;
     }
 }
 

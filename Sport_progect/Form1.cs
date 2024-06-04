@@ -35,6 +35,14 @@ namespace Sport_progect
             MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM участники_мероприятия", bd.getCon());
             return adap;
         }
+        //Функция быстрого запроса
+        private MySqlDataAdapter refery()
+        {
+            BD bd = new BD();
+            bd.OpenCon();
+            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `все жюри`", bd.getCon());
+            return adap;
+        }
 
         //Функция обновления таблицы 
         public void Update(MySqlDataAdapter adp)
@@ -131,8 +139,10 @@ namespace Sport_progect
         //Открыть информацию спортсменов
         private void l_sport_man_Click(object sender, EventArgs e)
         {
+            l_refery.Enabled = true;
+            p_refery.Visible = false;
             p_people.Visible = false;
-            I_people.Enabled = true;
+            l_people.Enabled = true;
             p_sport.Visible = false;
             l_sport.Enabled = true;
             p_man.Visible = true;
@@ -141,6 +151,7 @@ namespace Sport_progect
             Insert_sport.Visible = Update_sport.Visible = Delete_sport.Visible = false;
             Insert_man.Visible = Update_man.Visible = Delete_man.Visible = true;
             Insert_people.Visible = Update_people.Visible = Delete_people.Visible = false;
+            Insert_refery.Visible = Update_refery.Visible = Delete_refery.Visible = false;
             if (acces.Text == "2")
             {
                 Insert_man.Visible = Update_man.Visible = Delete_man.Visible = false;
@@ -153,8 +164,10 @@ namespace Sport_progect
         //Открыть информацию мероприятия
         private void l_sport_Click(object sender, EventArgs e)
         {
+            l_refery.Enabled = true;
+            p_refery.Visible = false;
             p_people.Visible = false;
-            I_people.Enabled = true;
+            l_people.Enabled = true;
             p_man.Visible = false;
             l_sport.Enabled = false;
             p_sport.Visible = true;
@@ -165,6 +178,7 @@ namespace Sport_progect
             Insert_sport.Visible = Update_sport.Visible = Delete_sport.Visible = true;
             Insert_man.Visible = Update_man.Visible = Delete_man.Visible = false;
             Insert_people.Visible = Update_people.Visible = Delete_people.Visible = false;
+            Insert_refery.Visible = Update_refery.Visible = Delete_refery.Visible = false;
             if (acces.Text == "2")
             {
                 Insert_sport.Visible = Update_sport.Visible = Delete_sport.Visible = false;
@@ -213,10 +227,16 @@ namespace Sport_progect
                 Update(man());
                 bd.CloseCon();
             }
-            else if (I_people.Enabled == false)
+            else if (l_people.Enabled == false && p_people.Visible == true)
             {
                 bd.OpenCon();
                 Update(people());
+                bd.CloseCon();
+            }
+            else if (l_refery.Enabled == false)
+            {
+                bd.OpenCon();
+                Update(refery());
                 bd.CloseCon();
             }
             /*else if(l_sport_all.Text == "См.Мероприятия")
@@ -259,6 +279,10 @@ namespace Sport_progect
             DataTable DATA = new DataTable();
             adap.Fill(DATA);
             form.dataGridView1.DataSource = DATA;
+            adap = new MySqlDataAdapter("SELECT * FROM спортивные_мерпориятия_v2.список_не_добавленных_спортсменов;", bd.getCon());
+            DATA = new DataTable();
+            adap.Fill(DATA);
+            form.dataGridView2.DataSource = DATA;
             bd.CloseCon();
             form.Show();
         }
@@ -270,16 +294,22 @@ namespace Sport_progect
             bd.OpenCon();
             FormAddEdit_2 form = new FormAddEdit_2();
             form.button1.Text = "Изменить";
+            form.dataGridView2.Enabled = false;
+            form.button2.Enabled = false;
             int index = Table_sport.CurrentRow.Index;
             form.Box_id.Text = Table_sport.Rows[index].Cells[0].Value.ToString();
-            form.Box_Fname.Text = (string)Table_sport.Rows[index].Cells[2].Value;
-            form.Box_Lname.Text = (string)Table_sport.Rows[index].Cells[1].Value;
-            form.Box_Dname.Text = (string)Table_sport.Rows[index].Cells[3].Value;
-            form.Box_kyrs.Text = Table_sport.Rows[index].Cells[3].Value.ToString();
+            form.Box_Fname.Text = Table_sport.Rows[index].Cells[2].Value + " " 
+                + Table_sport.Rows[index].Cells[1].Value + " " 
+                + Table_sport.Rows[index].Cells[3].Value;
+            form.Box_kyrs.Text = Table_sport.Rows[index].Cells[4].Value.ToString();
             MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM `отделения`", bd.getCon());
             DataTable DATA = new DataTable();
             adap.Fill(DATA);
             form.dataGridView1.DataSource = DATA;
+            adap = new MySqlDataAdapter("SELECT * FROM `все спортсмены` WHERE `ID` = " + form.Box_id.Text, bd.getCon());
+            DATA = new DataTable();
+            adap.Fill(DATA);
+            form.dataGridView2.DataSource = DATA;
             bd.CloseCon();
             form.Show();
         }
@@ -366,14 +396,19 @@ namespace Sport_progect
 
         private void I_people_Click(object sender, EventArgs e)
         {
+            l_refery.Enabled = true;
+            p_refery.Visible = false;
             p_sport.Visible = false;
             l_sport.Enabled = true;
             p_man.Visible = false;
             l_sport_man.Enabled = true;
             l_sport_all.Visible = false;
+            p_people.Visible = true;
+            l_people.Enabled = false;
             Insert_sport.Visible = Update_sport.Visible = Delete_sport.Visible = false;
             Insert_man.Visible = Update_man.Visible = Delete_man.Visible = false;
             Insert_people.Visible = Update_people.Visible = Delete_people.Visible = true;
+            Insert_refery.Visible = Update_refery.Visible = Delete_refery.Visible = false;
             if (acces.Text == "2")
             {
                 Insert_people.Visible = Update_people.Visible = Delete_people.Visible = false;
@@ -421,6 +456,31 @@ namespace Sport_progect
             form.Box_Lname.Text = (string)Table_sport.Rows[index].Cells[2].Value;
             form.Box_Dname.Text = (string)Table_sport.Rows[index].Cells[3].Value;
             form.Show();
+        }
+
+        private void l_refery_Click(object sender, EventArgs e)
+        {
+            l_refery.Enabled = false;
+            p_refery.Visible = true;
+            p_sport.Visible = false;
+            l_sport.Enabled = true;
+            p_man.Visible = false;
+            l_sport_man.Enabled = true;
+            l_sport_all.Visible = false;
+            p_people.Visible = false;
+            l_people.Enabled = true;
+            Insert_sport.Visible = Update_sport.Visible = Delete_sport.Visible = false;
+            Insert_man.Visible = Update_man.Visible = Delete_man.Visible = false;
+            Insert_people.Visible = Update_people.Visible = Delete_people.Visible = false;
+            Insert_refery.Visible = Update_refery.Visible = Delete_refery.Visible = true;
+            if (acces.Text == "2")
+            {
+                Insert_refery.Visible = Update_refery.Visible = Delete_refery.Visible = false;
+            }
+            BD bd = new BD();
+            bd.OpenCon();
+            Update(refery());
+            bd.CloseCon();
         }
     }
 }
