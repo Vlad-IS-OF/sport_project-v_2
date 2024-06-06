@@ -151,7 +151,7 @@ namespace Sport_progect
             Insert_sport.Visible = Update_sport.Visible = Delete_sport.Visible = false;
             Insert_man.Visible = Update_man.Visible = Delete_man.Visible = true;
             Insert_people.Visible = Update_people.Visible = Delete_people.Visible = false;
-            Insert_refery.Visible = Update_refery.Visible = Delete_refery.Visible = false;
+            Insert_refery.Visible = Delete_refery.Visible = false;
             if (acces.Text == "2")
             {
                 Insert_man.Visible = Update_man.Visible = Delete_man.Visible = false;
@@ -178,7 +178,7 @@ namespace Sport_progect
             Insert_sport.Visible = Update_sport.Visible = Delete_sport.Visible = true;
             Insert_man.Visible = Update_man.Visible = Delete_man.Visible = false;
             Insert_people.Visible = Update_people.Visible = Delete_people.Visible = false;
-            Insert_refery.Visible = Update_refery.Visible = Delete_refery.Visible = false;
+            Insert_refery.Visible = Delete_refery.Visible = false;
             if (acces.Text == "2")
             {
                 Insert_sport.Visible = Update_sport.Visible = Delete_sport.Visible = false;
@@ -265,7 +265,7 @@ namespace Sport_progect
             form.Id_sport.Text = (string)Table_sport.Rows[Table_sport.CurrentRow.Index].Cells[0].Value.ToString();
             if (acces.Text == "2")
             {
-                form.button1.Visible = form.button2.Visible = false;
+                form.Add_man.Visible = form.Del_man.Visible = false;
             }
                 form.Show();
         }
@@ -328,11 +328,7 @@ namespace Sport_progect
                 //MessageBox.Show(id); //проверка id
                 BD bd = new BD();
                 bd.OpenCon();
-                MySqlCommand com = new MySqlCommand("DELETE FROM `спортсмены` WHERE `спортсмены`.`idУчастника` = "
-                    + "Get_people_ID('"
-                    + Table_sport.Rows[index].Cells[1].Value.ToString() + "', '"
-                    + Table_sport.Rows[index].Cells[2].Value.ToString() + "', '"
-                    + Table_sport.Rows[index].Cells[3].Value.ToString() + "')", bd.getCon());
+                MySqlCommand com = new MySqlCommand("DELETE FROM `спортсмены` WHERE `спортсмены`.`id_Спортсмена` = "+ id, bd.getCon());
                 com.ExecuteNonQuery();
                 Update(man());
                 bd.CloseCon();
@@ -408,7 +404,7 @@ namespace Sport_progect
             Insert_sport.Visible = Update_sport.Visible = Delete_sport.Visible = false;
             Insert_man.Visible = Update_man.Visible = Delete_man.Visible = false;
             Insert_people.Visible = Update_people.Visible = Delete_people.Visible = true;
-            Insert_refery.Visible = Update_refery.Visible = Delete_refery.Visible = false;
+            Insert_refery.Visible = Delete_refery.Visible = false;
             if (acces.Text == "2")
             {
                 Insert_people.Visible = Update_people.Visible = Delete_people.Visible = false;
@@ -472,15 +468,47 @@ namespace Sport_progect
             Insert_sport.Visible = Update_sport.Visible = Delete_sport.Visible = false;
             Insert_man.Visible = Update_man.Visible = Delete_man.Visible = false;
             Insert_people.Visible = Update_people.Visible = Delete_people.Visible = false;
-            Insert_refery.Visible = Update_refery.Visible = Delete_refery.Visible = true;
+            Insert_refery.Visible = Delete_refery.Visible = true;
             if (acces.Text == "2")
             {
-                Insert_refery.Visible = Update_refery.Visible = Delete_refery.Visible = false;
+                Insert_refery.Visible = Delete_refery.Visible = false;
             }
             BD bd = new BD();
             bd.OpenCon();
             Update(refery());
             bd.CloseCon();
+        }
+
+        private void Insert_refery_Click(object sender, EventArgs e)
+        {
+            BD bd = new BD();
+            FormAddEdit_4 form = new FormAddEdit_4();
+            MySqlDataAdapter adap = new MySqlDataAdapter("SELECT * FROM спортивные_мерпориятия_v2.список_не_добавленных_жюри;", bd.getCon());
+            DataTable DATA = new DataTable();
+            adap.Fill(DATA);
+            form.dataGridView2.DataSource = DATA;
+            bd.CloseCon();
+            form.Show();
+        }
+
+        private void Delete_refery_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Вы действительно хотите удалить запись?", "Внимание!!!", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.Cancel)
+            {
+                return;
+            }
+            else
+            {
+                int index = Table_sport.CurrentRow.Index;
+                string id = Table_sport.Rows[index].Cells[0].Value.ToString();
+                //MessageBox.Show(id); //проверка id
+                BD bd = new BD();
+                bd.OpenCon();
+                MySqlCommand com = new MySqlCommand("call спортивные_мерпориятия_v2.DELETE_refery("+id+");", bd.getCon());
+                com.ExecuteNonQuery();
+                Update(refery());
+                bd.CloseCon();
+            }
         }
     }
 }

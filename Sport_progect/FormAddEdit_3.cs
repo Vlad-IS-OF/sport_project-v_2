@@ -39,7 +39,7 @@ namespace Sport_progect
                         BD bd = new BD();
                         bd.OpenCon();
                         MySqlCommand com = new MySqlCommand("UPDATE `участники_мероприятия` " +
-                            "SET `Имя` = '" + Box_Fname + "', `Фамилия` = '" + Box_Lname.Text + "', `Отчесво` = '" + Box_Dname.Text + " WHERE `участники_мероприятия`.`idУчастника` = " + Box_id.Text, bd.getCon());
+                            "SET `Имя` = '" + Box_Fname.Text + "', `Фамилия` = '" + Box_Lname.Text + "', `Отчество` = '" + Box_Dname.Text + "' WHERE `участники_мероприятия`.`idУчастника` = " + Box_id.Text, bd.getCon());
                         /*MessageBox.Show(com.CommandText.ToString());*/
                         com.ExecuteNonQuery();
                         bd.CloseCon();

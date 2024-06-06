@@ -30,12 +30,14 @@ namespace Sport_progect
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Insert_sport = new System.Windows.Forms.Button();
             this.Table_sport = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.Delete_refery = new System.Windows.Forms.Button();
             this.Delete_people = new System.Windows.Forms.Button();
+            this.Insert_refery = new System.Windows.Forms.Button();
             this.Delete_man = new System.Windows.Forms.Button();
             this.Update_people = new System.Windows.Forms.Button();
             this.Update_man = new System.Windows.Forms.Button();
@@ -58,18 +60,15 @@ namespace Sport_progect
             this.acces = new System.Windows.Forms.Label();
             this.NameUser = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.p_refery = new System.Windows.Forms.Panel();
             this.p_man = new System.Windows.Forms.Panel();
             this.p_sport = new System.Windows.Forms.Panel();
+            this.l_refery = new System.Windows.Forms.Label();
             this.l_sport_man = new System.Windows.Forms.Label();
             this.l_people = new System.Windows.Forms.Label();
             this.l_sport = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.l_refery = new System.Windows.Forms.Label();
-            this.p_refery = new System.Windows.Forms.Panel();
-            this.Insert_refery = new System.Windows.Forms.Button();
-            this.Update_refery = new System.Windows.Forms.Button();
-            this.Delete_refery = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Table_sport)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -102,14 +101,14 @@ namespace Sport_progect
             this.Table_sport.BackgroundColor = System.Drawing.Color.White;
             this.Table_sport.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Table_sport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Menu;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Table_sport.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Menu;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Table_sport.DefaultCellStyle = dataGridViewCellStyle1;
             this.Table_sport.Location = new System.Drawing.Point(19, 47);
             this.Table_sport.Name = "Table_sport";
             this.Table_sport.ReadOnly = true;
@@ -124,7 +123,6 @@ namespace Sport_progect
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.Delete_refery);
             this.panel3.Controls.Add(this.Delete_people);
-            this.panel3.Controls.Add(this.Update_refery);
             this.panel3.Controls.Add(this.Insert_refery);
             this.panel3.Controls.Add(this.Delete_man);
             this.panel3.Controls.Add(this.Update_people);
@@ -142,6 +140,21 @@ namespace Sport_progect
             this.panel3.Size = new System.Drawing.Size(893, 488);
             this.panel3.TabIndex = 5;
             // 
+            // Delete_refery
+            // 
+            this.Delete_refery.BackColor = System.Drawing.Color.Red;
+            this.Delete_refery.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Delete_refery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Delete_refery.ForeColor = System.Drawing.Color.White;
+            this.Delete_refery.Location = new System.Drawing.Point(758, 3);
+            this.Delete_refery.Name = "Delete_refery";
+            this.Delete_refery.Size = new System.Drawing.Size(132, 41);
+            this.Delete_refery.TabIndex = 10;
+            this.Delete_refery.Text = "УДАЛИТЬ";
+            this.Delete_refery.UseVisualStyleBackColor = false;
+            this.Delete_refery.Visible = false;
+            this.Delete_refery.Click += new System.EventHandler(this.Delete_refery_Click);
+            // 
             // Delete_people
             // 
             this.Delete_people.BackColor = System.Drawing.Color.Red;
@@ -156,6 +169,20 @@ namespace Sport_progect
             this.Delete_people.UseVisualStyleBackColor = false;
             this.Delete_people.Visible = false;
             this.Delete_people.Click += new System.EventHandler(this.Delete_people_Click);
+            // 
+            // Insert_refery
+            // 
+            this.Insert_refery.BackColor = System.Drawing.Color.PaleGreen;
+            this.Insert_refery.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Insert_refery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Insert_refery.Location = new System.Drawing.Point(3, 3);
+            this.Insert_refery.Name = "Insert_refery";
+            this.Insert_refery.Size = new System.Drawing.Size(154, 41);
+            this.Insert_refery.TabIndex = 8;
+            this.Insert_refery.Text = "ДОБАВИТЬ";
+            this.Insert_refery.UseVisualStyleBackColor = false;
+            this.Insert_refery.Visible = false;
+            this.Insert_refery.Click += new System.EventHandler(this.Insert_refery_Click);
             // 
             // Delete_man
             // 
@@ -344,7 +371,6 @@ namespace Sport_progect
             this.otchet.TabIndex = 9;
             this.otchet.Text = "Вывести отчёт за период";
             this.otchet.UseVisualStyleBackColor = false;
-            this.otchet.Visible = false;
             this.otchet.Click += new System.EventHandler(this.button4_Click);
             // 
             // pictureBox3
@@ -443,6 +469,15 @@ namespace Sport_progect
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // p_refery
+            // 
+            this.p_refery.BackColor = System.Drawing.Color.White;
+            this.p_refery.Location = new System.Drawing.Point(20, 339);
+            this.p_refery.Name = "p_refery";
+            this.p_refery.Size = new System.Drawing.Size(205, 3);
+            this.p_refery.TabIndex = 5;
+            this.p_refery.Visible = false;
+            // 
             // p_man
             // 
             this.p_man.BackColor = System.Drawing.Color.White;
@@ -459,6 +494,19 @@ namespace Sport_progect
             this.p_sport.Name = "p_sport";
             this.p_sport.Size = new System.Drawing.Size(205, 3);
             this.p_sport.TabIndex = 4;
+            // 
+            // l_refery
+            // 
+            this.l_refery.Cursor = System.Windows.Forms.Cursors.Default;
+            this.l_refery.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.l_refery.ForeColor = System.Drawing.Color.White;
+            this.l_refery.Location = new System.Drawing.Point(20, 304);
+            this.l_refery.Name = "l_refery";
+            this.l_refery.Size = new System.Drawing.Size(205, 32);
+            this.l_refery.TabIndex = 3;
+            this.l_refery.Text = "Жюри";
+            this.l_refery.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.l_refery.Click += new System.EventHandler(this.l_refery_Click);
             // 
             // l_sport_man
             // 
@@ -515,68 +563,6 @@ namespace Sport_progect
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
             this.notifyIcon1.Click += new System.EventHandler(this.notifyIcon1_Click);
-            // 
-            // l_refery
-            // 
-            this.l_refery.Cursor = System.Windows.Forms.Cursors.Default;
-            this.l_refery.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.l_refery.ForeColor = System.Drawing.Color.White;
-            this.l_refery.Location = new System.Drawing.Point(20, 304);
-            this.l_refery.Name = "l_refery";
-            this.l_refery.Size = new System.Drawing.Size(205, 32);
-            this.l_refery.TabIndex = 3;
-            this.l_refery.Text = "Жюри";
-            this.l_refery.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.l_refery.Click += new System.EventHandler(this.l_refery_Click);
-            // 
-            // p_refery
-            // 
-            this.p_refery.BackColor = System.Drawing.Color.White;
-            this.p_refery.Location = new System.Drawing.Point(20, 339);
-            this.p_refery.Name = "p_refery";
-            this.p_refery.Size = new System.Drawing.Size(205, 3);
-            this.p_refery.TabIndex = 5;
-            this.p_refery.Visible = false;
-            // 
-            // Insert_refery
-            // 
-            this.Insert_refery.BackColor = System.Drawing.Color.PaleGreen;
-            this.Insert_refery.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Insert_refery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Insert_refery.Location = new System.Drawing.Point(3, 3);
-            this.Insert_refery.Name = "Insert_refery";
-            this.Insert_refery.Size = new System.Drawing.Size(154, 41);
-            this.Insert_refery.TabIndex = 8;
-            this.Insert_refery.Text = "ДОБАВИТЬ";
-            this.Insert_refery.UseVisualStyleBackColor = false;
-            this.Insert_refery.Visible = false;
-            // 
-            // Update_refery
-            // 
-            this.Update_refery.BackColor = System.Drawing.Color.PaleGreen;
-            this.Update_refery.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Update_refery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Update_refery.Location = new System.Drawing.Point(202, 3);
-            this.Update_refery.Name = "Update_refery";
-            this.Update_refery.Size = new System.Drawing.Size(154, 41);
-            this.Update_refery.TabIndex = 9;
-            this.Update_refery.Text = "ИЗМЕНИТЬ";
-            this.Update_refery.UseVisualStyleBackColor = false;
-            this.Update_refery.Visible = false;
-            // 
-            // Delete_refery
-            // 
-            this.Delete_refery.BackColor = System.Drawing.Color.Red;
-            this.Delete_refery.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Delete_refery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Delete_refery.ForeColor = System.Drawing.Color.White;
-            this.Delete_refery.Location = new System.Drawing.Point(758, 3);
-            this.Delete_refery.Name = "Delete_refery";
-            this.Delete_refery.Size = new System.Drawing.Size(132, 41);
-            this.Delete_refery.TabIndex = 10;
-            this.Delete_refery.Text = "УДАЛИТЬ";
-            this.Delete_refery.UseVisualStyleBackColor = false;
-            this.Delete_refery.Visible = false;
             // 
             // Form1
             // 
@@ -645,7 +631,6 @@ namespace Sport_progect
         private System.Windows.Forms.Panel p_refery;
         private System.Windows.Forms.Label l_refery;
         private System.Windows.Forms.Button Insert_refery;
-        private System.Windows.Forms.Button Update_refery;
         private System.Windows.Forms.Button Delete_refery;
     }
 }

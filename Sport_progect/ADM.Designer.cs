@@ -270,7 +270,6 @@ namespace Sport_progect
             this.button4.TabIndex = 7;
             this.button4.Text = "Вывести отчёт за период";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Visible = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // ADM

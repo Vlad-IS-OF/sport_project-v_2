@@ -42,6 +42,11 @@ namespace Sport_progect
             {
                 try
                 {
+                    if (Box_id.Text == "" || Box_Fname.Text == "")
+                    {
+                        MessageBox.Show("Поле ФИО не заполнено!\nВыберите участника из списка!", "Ошибка");
+                        return;
+                    }
                     BD bd = new BD();
                     bd.OpenCon();
                     int index = dataGridView1.CurrentRow.Index;
